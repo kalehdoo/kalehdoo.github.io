@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kalehdoo Home</title>
+	<title>Kalehdoo</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="kalehdoocss.css">
+	<link rel="stylesheet" type="text/css" href="css/kalehdoocss.css">
 </head>
 <body>
 
@@ -15,50 +15,41 @@
 	<div class="container">
 
 		<!--add a Navigation Bar-->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	  		<!--add a href link to homepage-->
-	  		<a class="navbar-brand" href="#">Kalehdoo</a>
+	  		<a class="navbar-brand" href="index.html">Kalehdoo</a>
 	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	    	<span class="navbar-toggler-icon"></span>
 	  		</button>
 	  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	    		<div class="navbar-nav">
-	      			<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-	      			<a class="nav-item nav-link" href="#">Team</a>
-	      			<a class="nav-item nav-link" href="#">Projects</a>
-	      			<a class="nav-item nav-link" href="#">Contact</a>	      			
+	      			<a class="nav-item nav-link active" href="index.html">Home</a>
+	      			<a class="nav-item nav-link active" href="Team.html">Team</a>
+	      			<a class="nav-item nav-link active" href="#">Blog</a>
+	      			<a class="nav-item nav-link active" href="#">Initiatives</a>
+	      			<a class="nav-item nav-link active" href="contact.html">Contact</a>
+	      			<div class="navtoright navbar-nav collapse navbar-collapse" id="navbarNavAltMarkup">
+	      				<a class="nav-item nav-link active" href="#">Resources</a>
+	      				<a class="nav-item nav-link active" href="#">Register</a>	      				
+	      			</div>	      			
 	      		</div>
 	  		</div>
 		</nav>
 
+		<div class="jumbotron jumbocolor">
+			<h1 class="jumbotronheader">Contact Us</h1>
+			<h3 class="jumbotrondetail">Easiest way to get in touch is E-mail.</h3>
+			<h3 class="jumbotrondetail">mail me at manohar.rana@live.com</h3>
+		</div>
 
 
 		
-		<!--add a Grid-->
-		<div class="row">
-			<div class="col-lg-4 col-md-6">				
-				<form class="contactform">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>							
-			</div>
-			
+
+		
+
+		
+
 		</div>
-	</div>
-
-
 
 <!--Bootstrap javascript cdn is required to render bootstrap css, and jquery cdn is required to execute bootstrap js hence should be above bootstrap js-->
 <script

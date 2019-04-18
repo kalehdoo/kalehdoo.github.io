@@ -10,7 +10,7 @@
 }
 
 .jumbocolor{
-	background-color: rgb(125, 198, 173);
+	background-color: rgb(217, 221, 220);
 
 }
 
@@ -35,6 +35,15 @@
 }
 
 .profiletext{
+	text-align: center;
+}
+
+
+.bg-light {
+  background-color: rgb(200, 200, 200) !important;
+}
+
+.footer{
 	text-align: center;
 }
 
