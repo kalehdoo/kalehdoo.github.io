@@ -29,13 +29,19 @@
 	margin-left: 40%;
 }
 
-.profile{
-	padding: 10px;
+.profilediv{
+	/*padding: 10px;*/
 	background-color: #e9ecef;
 }
 
 .profiletext{
+
 	text-align: center;
+}
+
+.profiledesc{
+	padding: 10px;
+	text-align: left;
 }
 
 
@@ -89,6 +95,12 @@
 }
 
 
+.initiatives{
+	padding-top: 10px;
+}
 
-
+.topheader{
+	padding-top: 10px;
+	text-align: center;
+}
 
