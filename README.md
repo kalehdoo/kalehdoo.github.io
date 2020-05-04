@@ -1,2 +1,2 @@
 # kalehdoo.github.io
-made for kalehdoo pages
+made for Oakbloc.com website pages and hosted on netlify.
