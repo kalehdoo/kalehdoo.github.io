@@ -1,8 +1,7 @@
 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="48" height="48" fill="#D4E4F7"/>
-<circle cx="24" cy="24" r="20" fill="#18A0FB"/>
-<line x1="14.4395" y1="17.1811" x2="23.1812" y2="22.5606" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
-<line x1="24.5007" y1="26.4994" x2="24.5031" y2="35.4944" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
-<line x1="24.6934" y1="22.5331" x2="32.5331" y2="17.3066" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
-<path d="M13.5096 17.9434L24 11.8868L34.4904 17.9434V30.0566L24 36.1132L13.5096 30.0566V17.9434Z" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
+<rect width="48" height="48" fill="#343A40"/>
+<line x1="10.1062" y1="15.1811" x2="23.1812" y2="23.2273" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
+<line x1="23.8341" y1="26.4994" x2="23.8377" y2="40.1594" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
+<line x1="24.6934" y1="23.1998" x2="36.5331" y2="15.3066" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
+<path d="M9.17949 15.4434L24 6.88675L38.8205 15.4434V32.5566L24 41.1132L9.17949 32.5566V15.4434Z" stroke="#F37312" stroke-width="5" stroke-linecap="round"/>
 </svg>
