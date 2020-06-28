@@ -1,175 +1,224 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-	<title>OakBloc</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/kalehdoocss.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v4.0.1">
+  <title>OakBloc</title>
+  <link rel="icon" type="image/png" href="images/favicon_oakbloc.svg">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/kalehdoo.css"> -->
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" type="text/css" href="css/kalehdoo.css">
 </head>
-<body class="border">
 
+<body>
 
-
-
-
-	<!--add a container to put jumbotron-->
-	<div class="container">
-
-		<!--add a Navigation Bar-->
-		<nav class="navbar navbar-expand-lg navbar-white bg-white static-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="">
-        </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo_oakbloc.svg" width="200" height="50" alt="" loading="lazy">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apps.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Solutions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="virtualtrials.html">Virtual Trials</a>
+            <a class="dropdown-item" href="mobileclinic.html">Mobile Clinic</a>
+            <a class="dropdown-item" href="enurse.html">eNurse</a>
+            <a class="dropdown-item" href="smartdevices.html">Smart Devices</a>
+            <a class="dropdown-item" href="blockchain.html">Blockchain</a>
+            <a class="dropdown-item" href="products.html">Analytics</a>            
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apps.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Services
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="services.html">Consulting</a>
+            <a class="dropdown-item" href="dataeng.html">Data Engineering</a>
+            <a class="dropdown-item" href="analytics.html">Analytics</a>
+            <a class="dropdown-item" href="enurse.html">Artificial Intelligence</a>
+            <a class="dropdown-item" href="smartdevices.html">Device Integration</a>                        
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="apps.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Resources
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="blog.html">Blog</a>
+            <a class="dropdown-item" href="#">White Papers</a>
+            <a class="dropdown-item" href="#">News</a>                                    
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="clinical.html">Clinical Trials</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="platform.html">Platform</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="usecase.html">Use Cases</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="analytics.html">Analytics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Blog.html">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contact.html">Contact</a>
-        </li>
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>        
       </ul>
     </div>
+  </nav>
+
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 class="display-5">OakBloc Technologies</h1>
+    <h5 class="display-5" style="color: #18A0FB;">Reimagining Clinical Trials With Emerging Technology Adoption</h5>
+    <h2 class="lead">High Integrity Clinical Trial Data for Analysis and Approval</h2>
+    <p style="text-align:justify;">
+      Helping Pharmaceutical industry adopt new technologies to improve healthcare, drug research, and supply chain. 
+      Clinical trials industry is moving towards making clinical trials more patient centric through adoption of virtual trials and telehealth technologies.      
+    </p>
+    <p style="text-align:justify;">
+      Oakbloc has developed technological accelerators, solutions, and platforms to accelerate the adoption of virtual clinical trial and telehealth by industry.      
+    </p>
   </div>
-</nav>
 
+  <div class="container">
 
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card h-100">
+          <h5 class="list-group-item" style="text-align: center; background-color: #F37312;">Mobile Clinic Platform</h5>
+          <img src="images/mobileVan.png" class="card-img-top" alt="mobile clinic">
+          <div class="card-body">            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="text-align: center;">Delivery of Trial Medication</li>
+              <li class="list-group-item" style="text-align: center;">Primary Health Checkup by Certified Nurse or eNurse</li>
+              <li class="list-group-item" style="text-align: center;">Medical Reading by Certified Nurse or Smart Devices</li>
+              <li class="list-group-item" style="text-align: center;">Lab work and Sample Collection</li>
+              <li class="list-group-item" style="text-align: center;">Options with or without certified nurse</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <h5 class="list-group-item" style="text-align: center; background-color: #F37312;">Virtual eNurse Platform</h5>
+          <img src="images/eNurse.png" class="card-img-top" alt="...">
+          <div class="card-body">            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="text-align: center;">Virtual Health check and Assessment by eNurse</li>
+              <li class="list-group-item" style="text-align: center;">Video, Image, and NL processing and Analysis</li>
+              <li class="list-group-item" style="text-align: center;">Diagnose using ML, DL and AI techniques</li>
+              <li class="list-group-item" style="text-align: center;">Create Preliminary Assessment Report for Physician</li>
+              <li class="list-group-item" style="text-align: center;">Self Learning eNurse Model</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <h5 class="list-group-item" style="text-align: center; background-color: #F37312;">Smart Medical Devices Integration</h5>
+          <img src="images/smartdevice.png" class="card-img-top" alt="...">
+          <div class="card-body">            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="text-align: center; font-weight: bold; color: #18A0FB;">Oakbloc Framework - Accelerator</li>
+              <li class="list-group-item" style="text-align: center;">Smart device integration framework for securely accessing, transferring and storing the streaming data from smart devices on cloud storage (eg AWS) or on a local virtual image (Oracle VirtualBox with Linux OS)</li>
+              <li class="list-group-item" style="text-align: center;">Quick new smart device integration with IT systems</li>
+              <li class="list-group-item" style="text-align: center;">Bring your own devices - Multiple device variety use for Clinical Trial to save cost and flexibility to Patient</li>              
+              <li class="list-group-item" style="text-align: center; font-weight: bold; color: #18A0FB;">Services</li>
+              <li class="list-group-item" style="text-align: center;">New Device Integration with IT systems</li>
+              <li class="list-group-item" style="text-align: center;">Level 2/3 technical support for integration problems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card h-100">
+          <h5 class="list-group-item" style="text-align: center; background-color: #F37312;">Kalehdoo Clinical Analytics Platform</h5>
+          <img src="images/clinanalytics.png" class="card-img-top" alt="...">
+          <div class="card-body">            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item" style="text-align: center; font-weight: bold; color: #18A0FB;">Clinical Analytics Apps/Dashboards</li>
+              <li class="list-group-item" style="text-align: center;">Clinical Intelligence</li>
+              <li class="list-group-item" style="text-align: center;">Study Experiment Simulator</li>
+              <li class="list-group-item" style="text-align: center;">Patient Analytics and Monitoring</li>
+              <li class="list-group-item" style="text-align: center;">Clinical Study Site Finder</li>              
+              <li class="list-group-item" style="text-align: center; font-weight: bold; color: #18A0FB;">Data Analytics Services</li>
+              <li class="list-group-item" style="text-align: center;">Big Data Engineering and AI/ML</li>
+              <li class="list-group-item" style="text-align: center;">Business Intelligence and Advance Analytics</li>
+              <li class="list-group-item" style="text-align: center; font-weight: bold; color: #18A0FB;">Open Source Technologies</li>
+              <li class="list-group-item" style="text-align: center;">Blockchain, Mongodb</li>
+              <li class="list-group-item" style="text-align: center;">R, Python, Shiny</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-		<!--add a jumbotron-->
-		<div class="jumbotron jumbocolor">
-			<h1 class="jumbotronheader">OakBloc Technologies</h1>
-			<h3 class="jumbotrondetail">Blockchain Technology Based Platform
-For Virtual Clinical Trials</h3>
-			<h5 class="jumbotrondetail">High Integrity Clinical Trial Data for Analysis and Approval</h5>
-		</div>
-		
-				<!--add a Grid-->
-		<div class="row">
-			<div class="col-lg-4 col-md-6 col-sm-12">				
-				<img src="images/challenges.jpg" class="img-thumbnail">				
-				<h5 class="profiletext">Clinical Research Industry Challenges</h5>
-				<p>
-					<ul>
-  						<li>Low Patient Participation
-    					<ul>
-      						<li>Low recruitment rates (3%) of eligible patients</li>
-      						<li>40% drop-out rate of patients involved in phase III studies</li>
-      						<li>Barriers to participation due to travel distances to reach research centers</li>
-      						<li>Geographically dispersed groups or rare disease populations</li>
-    					</ul>
-    					<li>Less Patient centric approach
-    					<ul>
-      						<li>Ease of participation for patients</li>
-      						<li>Severe events actions/reporting</li>
-      					</ul>
-  							</li>
-  							<li>Long lead time to complete study</li>
-  							</li>
-  							<li>High cost structure</li>
-
-					</ul>
-
-				</p>							
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">				
-				<img src="images/needs.jpg" class="img-thumbnail">				
-				<h5 class="profiletext">Clinical Research Industry Needs</h5>
-				<p>
-					<ul>
-						</li>
-  							<li>Ease in Patient identification & recruitment</li>
-  						<li>Decentralized approach
-    					<ul>
-      						<li>Data Integrity and Authenticity</li>
-      						<li>Data Transparency</li>
-      					</ul>
-    						<li>Technology Adoption
-    						<ul>
-      							<li>Social media for recruitment</li>
-      							<li>Smart and wearable devices</li>
-      							<li>AI / ML and Blockchain</li>
-      						</ul>
-      						<li>Improve patient safety
-    						<ul>
-      							<li>Real-world evidence/data</li>
-      							<li>Severe events actions/reporting in real-time</li>
-      							<li>Possibly even interrupt the study more easily</li>
-      						</ul>
-  							</li>
-  							<li>Cost effective & efficient for rare diseases</li>
-  							
-
-					</ul> 
-				</p>			
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-12">				
-				<img src="images/technology.jpg" class="img-thumbnail">				
-				<h5 class="profiletext">Reimagining Clinical Trials with New Technologies</h5>
-				<p>
-					<ul>
-						
-  						<li>BLOCKCHAIN
-    					<ul>
-      						<li>Permissioned membership</li>
-      						<li>Timestamped audit trail</li>
-      						<li>Disruptive secured transaction store</li>
-      						<li>Decentralized system</li>
-      						<li>Protection of digital keys</li>
-      						
-      					</ul>
-    						<li>BIGDATA & IOT
-    						<ul>
-      							<li>Integration with smart devices</li>
-      							<li>Capture streaming data from devices</li>
-      							<li>Store large volumes of data on cloud</li>
-						
-						</ul>
-      						<li>ADVANCE ANALYTICS
-    						<ul>
-      							<li>Use of AI and ML for predictions</li>
-      							<li>Real-time analytics by researchers</li>
-      							<li>Quick feedback and recommendation</li>
-				</p>				
-			</div>
-			
-		</div>
-
-				
-		<!-- if footer is required
-		<nav class="navbar navbar-light bg-light">
-			<p class="footer">Website Designed and Developed by Manohar Rana</p>  			
-		</nav> -->
-		
-<hr>
-
-	</div>
-
-<!--Bootstrap javascript cdn is required to render bootstrap css, and jquery cdn is required to execute bootstrap js hence should be above bootstrap js-->
-<script
-  src="https://code.jquery.com/jquery-3.4.0.min.js"
-  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+      <div class="row">
+        <div class="col-12 col-md">
+          <img class="mb-2" src="images/favicon_oakbloc.svg" alt="Oakbloc" width="24" height="24">
+          <small class="d-block mb-3 text-muted">&copy; Oakbloc 2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Platforms</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="mobileclinic.html">Mobile Clinic</a></li>
+            <li><a class="text-muted" href="enurse.html">eNurse</a></li>
+            <li><a class="text-muted" href="products.html">Analytics</a></li>            
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Accelerators</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="smartdevices.html">Smart Devices</a></li>
+            <li><a class="text-muted" href="blockchain.html">Blockchain</a></li>
+            <li><a class="text-muted" href="dataeng.html">Data Engineering</a></li>            
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="vision.html">Vision</a></li>
+            <li><a class="text-muted" href="vision.html">Mission</a></li>
+            <li><a class="text-muted" href="https://twitter.com/kalehdoo" target="self">Twitter</a></li>            
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Script reuired for hamburger menu collapse -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
